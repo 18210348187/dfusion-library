@@ -23,7 +23,6 @@ new ItemDialog(context, ["相册","拍照"], "标题",requestCode, listener).sho
 
 3、DatePickerWindow
 
-调用：
 
 
 
