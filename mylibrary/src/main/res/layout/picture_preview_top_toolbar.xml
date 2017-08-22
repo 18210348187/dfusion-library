@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/picture_preview_top_toolbar_download"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/bga_pp_size_level3"
+        android:paddingRight="@dimen/bga_pp_size_level3"
+        android:src="@mipmap/bga_pp_ic_download" />
+
+    <TextView
+        android:id="@+id/picture_preview_top_toolbar_orignal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:paddingRight="@dimen/bga_pp_size_level3"
+        android:gravity="center_vertical"
+        android:text="@string/picture_preview_orignal"
+        android:layout_toLeftOf="@id/picture_preview_top_toolbar_download"/>
+
+    <TextView
+        android:id="@+id/picture_preview_top_toolbar_title"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxEms="7"
+        android:paddingRight="@dimen/bga_pp_size_level1"
+        android:lines="1"
+        android:text="@string/bga_pp_view_photo" />
+
+</RelativeLayout>
